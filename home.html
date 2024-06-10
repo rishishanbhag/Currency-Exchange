@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-Coverter.com-Convert Your currency with ease</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><b><i><u>Currency Calculator</u></i></b></div>
+        <ul>
+            <li><b><a href="/under maintanance">Home</a></li></b>
+            <li><b><a href="/under maintanance">About Us</a></li></b>
+            <li><b><a href="/under maintanance">Contact us</a></li></b>
+        </ul>
+
+
+    </nav>
+    <div class="container">
+        <h1>Choose a currency to convert</h1>
+        <form action="/action.php" method="post">
+            <label for="quantity"><b>Enter the amount</b></label> 
+            <input type="number" name="quantity" min="1" max="100000">
+            <label for="currency"><b>Choose your currency to compare </b></label>
+            <select name="currency">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <option value="CAD">Canadian Dollar</option>
+                <option value="EUR">Euro</option>
+                <option value="KWD">Kuwaiti dinar</option>
+                <option value="GBP">British Pound</option>
+                <option value="BRL">Brazilian real</option>
+                <option value="FJD">Fijian dollar</option>
+                <option value="NZD">New Zealand dollar</option>
+                <option value="SGD">Singapore dollar </option>
+                <option value="BSD"> Bahamian dollar</option>
+                <option value="KYD">Cayman Islands Dollar </option>
+                <option value="JOD">Jordanian Dinar</option>
+                <option value="OMR">Omani Rial</option>
+                <option value="BHD"> Bahraini Dinar </option>
+            </select>
+
+            <button class="submit">Submit</button>
+        </form>
+
+
+        <div class="output">
+        <table>
+            <h1>These are the converted values</h1>
+            <thead>
+                <tr>
+                    <th>Your Currency</th>
+                    <th>Currency-Code</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Data1</td>
+                    <td>Data2</td>
+                    <td>Data2</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p>all rights reserved</p>
+        <p><b><i>-by Rishi Shanbhag</i></b></p> 
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>
